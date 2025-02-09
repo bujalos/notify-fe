@@ -21,7 +21,7 @@ import { usePlaySound } from "~/components/Beeper";
 import { DebugPanel } from "~/components/DebugPanel";
 
 function Home(): JSX.Element {
-  const startCountdown = 21;
+  const startCountdown = 11;
   const [countdown, setCountdown] = useState(startCountdown);
   const [fetchTrigger, setFetchTrigger] = useState(0);
   const [isActive, setIsActive] = useState(false);
